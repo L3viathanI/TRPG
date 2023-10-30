@@ -1,0 +1,56 @@
+{
+    "name": "Test_1",
+    "attributes": [
+        {
+            "name": "HP",
+            "value type": "num"
+        },
+        {
+            "name": "Condition",
+            "value type": "alpha"
+        },
+        {
+            "name": "MP",
+            "value type": "num"
+        }
+    ],
+    "actions": [
+        {
+            "name": "doom",
+            "effects": [
+                {
+                    "attribute": "HP",
+                    "effect type": "st",
+                    "modifier": "+",
+                    "value": -7,
+                    "condition": {
+                        "attribute": "HP",
+                        "attribute owner": "target",
+                        "comparison": ">",
+                        "value": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "entities": [
+        {
+            "name": "Lel",
+            "attributes": [
+                {
+                    "name": "HP",
+                    "value type": "num",
+                    "value": 30
+                },
+                {
+                    "name": "Condition",
+                    "value type": "alpha",
+                    "value": "Bad"
+                }
+            ],
+            "actions": [
+                "doom"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "games": [
+        {
+            "name": "File_System_Test",
+            "path": "C:\\Users\\tandu\\Documents\\Python\\Projects\\StoryOfU\\data\\games\\File_System_Test.json"
+        },
+        {
+            "name": "New",
+            "path": "C:\\Users\\tandu\\Documents\\Python\\Projects\\StoryOfU\\data\\games\\New.json"
+        },
+        {
+            "name": "Test_1",
+            "path": "C:\\Users\\tandu\\Documents\\Python\\Projects\\StoryOfU\\data\\games\\Test_1.json"
+        },
+        {
+            "name": "Test_2",
+            "path": "C:\\Users\\tandu\\Documents\\Python\\Projects\\StoryOfU\\data\\games\\Test_2.json"
+        },
+        {
+            "name": "Test_3",
+            "path": "C:\\Users\\tandu\\Documents\\Python\\Projects\\StoryOfU\\data\\games\\Test_3.json"
+        }
+    ]
+}
