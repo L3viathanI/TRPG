@@ -73,20 +73,38 @@ class TAttribute:
     def __init__(self,
                  name: str,
                  value_type: str):
+        """Initialize a new TAttribute member
+
+        Args:
+            name (str): Name of the attribute
+            value_type (str): Value type of the attribute. Must be "num", "alpha" or "bool", representing numerical, alphabetic or boolean data
+        """
         self._name = name
         self._value_type = value_type
 
         self.update_data()
         
     def update_data(self):
+        """A method to make sure data in self.data corresponds with instance properties
+        """
         self.data = {"name": self._name,
                      "value type": self._value_type}
     
 
     def get_name(self) -> str:
+        """Returns the name of the attribute.
+
+        Returns:
+            str: The attribute's name
+        """
         return self._name
 
     def get_value_type(self) -> str:
+        """Returns value type of the attribute
+
+        Returns:
+            str: The attribute's value type
+        """
         return self._value_type
     
     def set_name(self, new_attribute_name: str):

@@ -13,8 +13,8 @@ import file_management as file
 
 WINDOW_HEIGHT = 720
 WINDOW_WIDTH = 960
-PLUS_ICON = r"C:\Users\tandu\Documents\Python\Projects\StoryOfU\resources\plus.png"
-MINUS_ICON = r"C:\Users\tandu\Documents\Python\Projects\StoryOfU\resources\minus.png"
+PLUS_ICON = file.os.path.join(file.PARENT, "resources\plus.png")
+MINUS_ICON = file.os.path.join(file.PARENT, "resources\minus.png")
 
 class OpenRPGDialog(widgets.QDialog):
     def __init__(self, parent: QWidget | None = ...) -> None:
